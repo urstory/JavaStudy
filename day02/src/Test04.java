@@ -12,8 +12,15 @@ public class Test04 {
         // 모든 배열은 속성 length를 가진다. 배열의 크기를 출력한다.
         System.out.println(scoreArray.length);
         for(int i = 0; i < scoreArray.length; i++){
+            scoreArray[i] = (int)(Math.random() * 101);
+        }
+        int total = 0;
+        for(int i = 0; i < scoreArray.length; i++){
             // scoreArray 의 i번째 방의 값을 출력한다.
             System.out.println(scoreArray[i]);
+            total = total + scoreArray[i];
         }
+        System.out.println(total + " , "
+                + (total / (double)scoreArray.length));
     } // main
 }
