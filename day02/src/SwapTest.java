@@ -8,6 +8,7 @@ public class SwapTest {
         swap(i, k);
         System.out.println(i + "," + k);
 
+        // 레퍼런스를 전달하여 값을 바꾼다.
         Data d = new Data();
         d.i = 50;
         d.k = 90;
