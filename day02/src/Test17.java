@@ -12,13 +12,13 @@ public class Test17 {
 }
 
 class Box171{
-    private Object obj;
+    private Object obj; // Object나 Object의 자손은 모두 레퍼런스가능
 
     public Object getObj() { // Object나 자손이 나올 수 있다.
         return obj;
     }
 
-    public void setObj(Object obj) { // Object의 자손이 들어간다.
+    public void setObj(Object obj) { //Object나 Object의 자손이 들어간다.
         this.obj = obj;
     }
 }
