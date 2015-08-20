@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by EDU5 on 2015-08-19.
  */
@@ -7,7 +9,6 @@ public class Test05 {
         int[] array = new int[]{ 5, 10, 4, 6, 7};
         System.out.println(array.length);
         // array의 내용을 정렬하여 출력하려면?
-
         // 0 - 1,2,3,4
         // 1 - 2,3,4
         // 2 - 3,4
@@ -21,6 +22,7 @@ public class Test05 {
                 }
             }
         }
+        //Arrays.sort(array);
         System.out.println("------------------------");
         for(int i = 0; i < array.length; i++){
             System.out.println(array[i]);

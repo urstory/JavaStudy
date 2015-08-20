@@ -25,5 +25,6 @@ public class Test01 {
             m++;
         }while(m <= 100);
         System.out.println(sum);
+        // for, while, do- while - while문과 do-while문을 이용하여 1-100 홀수의 합
     }
 }

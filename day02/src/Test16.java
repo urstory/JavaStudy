@@ -7,6 +7,9 @@
 // java.util패키지는 프로그래밍시 유용한 클래스
 // 날짜, 자료구조 등
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 public class Test16 {
     public static void main(String args[]){
@@ -14,7 +17,10 @@ public class Test16 {
 //        list1.add("hello");
 //        String str1 = (String)list1.get(0);
 
-        ArrayList<String> list = new ArrayList<>();
+        //ArrayList<String> list = new ArrayList<>();
+        //Vector<String> list = new Vector<>();
+        //LinkedList<String> list = new LinkedList<>();
+        List<String> list = new ArrayList<>();
         list.add("hello");
         list.add("world");
         list.add("!!!");
