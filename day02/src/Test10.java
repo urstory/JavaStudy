@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Test10 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
+        // Friend f1 = null;
+        // f1 = new Friend();
         Friend[] array = new Friend[5]; // Friend를 5개 가리킬수 있는 배열.
         for(int i = 0; i < array.length; i++){
             array[i] = new Friend();

@@ -17,6 +17,7 @@ class Book14{
     private String title;
     private int price;
 
+
     // 컴파일 할 때 자동으로 만들어진다. (생성자가 하나도 없으면)
     // 메소드와 비슷하지만 다른 점이 있다.
     // 생성자는 class이름과 같다.

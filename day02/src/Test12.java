@@ -4,8 +4,8 @@
 public class Test12 {
     public static void main(String args[]){
         // 아래줄을 JVM이 실행할 때 먼저 Bean12가 가지고 있는
-        // static한 것들은 모두 메모리에 올린다.
-        // 그리고 나서 new로 인스턴스가 만들어진다.
+        // static한 것들은 모두 메모리에 올린다. - class영역이라는 메모리 영역에 올라간다.
+        // 그리고 나서 new로 인스턴스가 만들어진다. - heap 메모리에 올라간다.
         Bean12 b1 = new Bean12();
         Bean12 b2 = new Bean12();
         b1.k++;

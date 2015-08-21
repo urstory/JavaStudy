@@ -1,3 +1,13 @@
+// 우리도 package를 만들 수 있다.
+// package이름은 보통 도메인 이름을 거꾸로 적는다.
+// 회사 도메인 ex> sunnyvale.co.kr
+// package 이름의 시작 > kr.co.sunnyvale
+// 그 뒤에는 보통 프로젝트 이름이 붙는다.
+// kr.co.sunnyvale.goclass
+// kr.co.sunnyvale.javastudy
+// 그럼 왜 이렇게 이름을 정하느냐?
+
+
 // 가장 기본적인 class ( System, String, Math ... )은 java.lang
 // 패키징에 있다. java.lang은 가장 기본이 되는 package
 // java.lang을 제외하고는 다른 package에 있는 class는 사용하려면
