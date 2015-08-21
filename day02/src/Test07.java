@@ -3,6 +3,10 @@
  */
 public class Test07 {
     public static void main(String args[]){
+        // 2차원 배열을 선언하고.
+        // array ---> _,_
+        //            | +---> _,_,_
+        //            +-----> _,_,_
         int[][] array = new int[2][3];
         System.out.println(array.length);
         System.out.println(array[0].length);

@@ -30,5 +30,9 @@ class Bus25 extends Car25{
 
 // Car25를 상속받고 있는 SuperCar!!
 class SuperCar extends Car25{
-
+    // 오버라이드는 부모나 조상이 가지고 있는 메소드를 다시 구현한다.
+    @Override
+    public void run() {
+        System.out.println("후륜구동한다.");
+    }
 }

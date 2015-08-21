@@ -17,6 +17,8 @@ public class Test01 {
         }
         System.out.println(sum);
 
+
+
         sum = 0;
         int k = 1; // 변수의 선언
         while(k <= 100){ // 반복조건

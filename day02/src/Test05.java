@@ -5,10 +5,12 @@ import java.util.Arrays;
  */
 public class Test05 {
     public static void main(String[] args){
-        // ¹è¿­À» ¼±¾ğÇÔ°ú µ¿½Ã¿¡ ÃÊ±âÈ­
-        int[] array = new int[]{ 5, 10, 4, 6, 7};
+        // ë°°ì—´ì„ ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™”
+        //int[] array = new int[]{ 5, 10, 4, 6, 7};
+        int[] array = { 4, 5, 6, 7, 10};
         System.out.println(array.length);
-        // arrayÀÇ ³»¿ëÀ» Á¤·ÄÇÏ¿© Ãâ·ÂÇÏ·Á¸é?
+        // arrayì•ˆì˜ ë‚´ìš©ì„ ì •ë ¬í•˜ë¼.
+        // ì•„ë˜ëŠ” ë¹„êµí•˜ëŠ” ìˆœì„œ?
         // 0 - 1,2,3,4
         // 1 - 2,3,4
         // 2 - 3,4
@@ -22,6 +24,8 @@ public class Test05 {
                 }
             }
         }
+        // ìë°”ê°€ ê¸°ë³¸ìœ¼ë¡œ ì œê³µí•˜ëŠ” Arraysí´ë˜ìŠ¤ì˜
+        // staticë©”ì†Œë“œ sortë¥¼ ì´ìš©í•˜ë©´ ì •ë ¬í•  ìˆ˜ ìˆë‹¤.
         //Arrays.sort(array);
         System.out.println("------------------------");
         for(int i = 0; i < array.length; i++){

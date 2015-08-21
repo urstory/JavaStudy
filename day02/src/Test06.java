@@ -9,7 +9,8 @@ public class Test06 {
             array[i] = i+1;
         }
 
-        // ������ ����Ͻÿ�.
+        // 배열을 섞는다. 2개의 랜덤한 위치를 찾아서 10,000 번
+        // 배열의 값을 바꾼다.
         for(int i = 0; i< 10000; i++){
             int index1 = (int)(Math.random() * array.length);
             int index2 = (int)(Math.random() * array.length);
