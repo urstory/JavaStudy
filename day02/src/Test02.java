@@ -12,5 +12,7 @@ public class Test02 {
             System.out.print(c); // abc ... xyz
         }
         System.out.println();
+
+        // 하하하
     }
 }
