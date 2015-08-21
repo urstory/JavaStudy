@@ -1,22 +1,19 @@
-/**
- * Created by EDU5 on 2015-08-19.
- */
 public class Test04 {
     public static void main(String[] args){
-        // 100¸íÀÇ ÇĞ»ıÀÌ ÀÖ´Ù.
-        // °¢°¢ÀÇ ÇĞ»ıÀÌ ±¹¾îÁ¡¼ö¸¦ ·£´ıÇÏ°Ô ºÎ¿©¹Ş´Â´Ù.
-        // 100¸íÀÇ ÇĞ»ıÀÌ ºÎ¿©¹ŞÀº Á¡¼ö¸¦ Ãâ·ÂÇÏ°í, ÃÑÁ¡°ú Æò±ÕÀ» ±¸ÇÏ½Ã¿À.
-        // Á¤¼ö¹è¿­typeÀÇ scoreArray¸¦ ¼±¾ğ. scoreArray´Â ·¹ÆÛ·±½ºtype
-        // scoreArray´Â 100°³ÀÇ °ªÀ» '°¡Áö´Â' Á¤¼ö¹è¿­À» ·¹ÆÛ·±½º ÇÑ´Ù.
+        // ì •ìˆ˜ë¥¼ 100ê°œ ì €ì¥í•  ìˆ˜ ìˆëŠ” ë°°ì—´.
+        // ë³€ìˆ˜ê°€ 100ê°œ ìˆëŠ”ê²ƒê³¼ ê°™ì€ ì˜ë¯¸
+        // i0 i1 i2 i3 .... i99
+        // i[0]  i[1]  i[2] ... i[99]
         int[] scoreArray = new int[100];
-        // ¸ğµç ¹è¿­Àº ¼Ó¼º length¸¦ °¡Áø´Ù. ¹è¿­ÀÇ Å©±â¸¦ Ãâ·ÂÇÑ´Ù.
+        // ë°°ì—´ì˜ ê¸¸ì´. ë°°ì—´ì€ ëª¨ë‘ lengthë¼ëŠ” í•„ë“œë¥¼ ê°€ì§„ë‹¤.
         System.out.println(scoreArray.length);
         for(int i = 0; i < scoreArray.length; i++){
+            // ë°°ì—´ì— 0~100 ì‚¬ì´ì˜ ê°’ì„ ì„¤ì •
             scoreArray[i] = (int)(Math.random() * 101);
         }
         int total = 0;
         for(int i = 0; i < scoreArray.length; i++){
-            // scoreArray ÀÇ i¹øÂ° ¹æÀÇ °ªÀ» Ãâ·ÂÇÑ´Ù.
+            // ë°°ì—´ì˜ ëª¨ë“  ê°’ ì¶œë ¥
             System.out.println(scoreArray[i]);
             total = total + scoreArray[i];
         }
