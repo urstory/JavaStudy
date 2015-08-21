@@ -3,7 +3,11 @@
  */
 public class Test15 {
     public static void main(String args[]){
-        User15 u1 = new User15("홍길동");
+        String str1 = new String("홍길동");
+        char[] array = new char[]{'홍','길','동'};
+        String str2 = new String(array);
+        System.out.println(str2);
+        User15 u1 = new User15("홍길동", 1990);
         System.out.println(u1.getName());
     }
 }
@@ -21,6 +25,16 @@ class User15{
     // 생성자를 정의하였기 때문에 기본생성자는 자동으로 만들어지지 않는다.
     public User15(String name){
         this.name = name;
+    }
+
+    // 생성자는 여러개 만들 수 있다. 생성자 오버로딩이라고 한다.
+    // 다만 파라미터의 수가 다르거나 파라미터의 type이 달라야 한다.
+    // User15(String name), User15(int birthYear)
+    // User15(String passwd)
+    // User15(String name, String passwd)
+    public User15(String name, int birthYear) {
+        this.name = name;
+        this.birthYear = birthYear;
     }
 
     public String getName() {
