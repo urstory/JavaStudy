@@ -1,20 +1,15 @@
-/**
- * Created by EDU5 on 2015-08-19.
- */
 public class Test02 {
     public static void main(String[] args){
-        // char ´Â ¹®ÀÚÀÌ¸é¼­ ¼ıÀÚ(0,¾ç¼ö)ÀÌ´Ù.
-        // ¹®ÀÚ´Â ÀÛÀºµû¿ÈÇ¥¸¦ »ç¿ëÇÏ°í, ¹®ÀÚ¿­Àº Å«µû¿ÈÇ¥¸¦ »ç¿ëÇÑ´Ù.
-        // char´Â 2byte
+        // charëŠ” ê¸°ë³¸í˜•. 2byte 0,ì–‘ìˆ˜
+        // ë¬¸ìëŠ” 'ê°’'  ë¬¸ìì—´(String) "ê°’"
         char ch = 'A';
-        ch++;
-        int i = ch;
+        ch++; // chëŠ” 'B' ê°€ ëœë‹¤.
+        int i = ch; // chê°€ ëª‡ë²ˆì§¸ ë¬¸ìì¸ì§€ iì— ì„¤ì •í•¨.
         System.out.println(ch);
-        System.out.println(i); // A:65
+        System.out.println(i); // A:65  B:66
         System.out.println((int)'a'); // a:97
-        // abcdefghijklmnopqrstuvwxyz
         for(char c = 'a' ; c <= 'z' ; c++){
-            System.out.print(c);
+            System.out.print(c); // abc ... xyz
         }
         System.out.println();
     }
