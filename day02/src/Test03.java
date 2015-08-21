@@ -2,6 +2,12 @@
  * Created by EDU5 on 2015-08-19.
  */
 public class Test03 {
+    // a
+    // bc
+    // def
+    // ghij
+    // ......
+    //   za...
     public static void main(String[] args){
         int count = 9;
         char ch = 'a';
